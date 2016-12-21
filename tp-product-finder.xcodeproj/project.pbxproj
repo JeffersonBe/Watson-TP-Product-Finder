@@ -7,131 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		449BBA061E0958EF001C2FE4 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449BB9F41E095804001C2FE4 /* Alamofire.framework */; };
-		449BBA071E0958EF001C2FE4 /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 449BB9F41E095804001C2FE4 /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		449BBA531E0961C5001C2FE4 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 449BBA461E0961B5001C2FE4 /* SwiftyJSON.framework */; };
-		449BBA541E0961C5001C2FE4 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 449BBA461E0961B5001C2FE4 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		44B9F4111E092D7400DCF597 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B9F4101E092D7400DCF597 /* AppDelegate.swift */; };
 		44B9F4131E092D7400DCF597 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B9F4121E092D7400DCF597 /* ViewController.swift */; };
 		44B9F4161E092D7400DCF597 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B9F4141E092D7400DCF597 /* Main.storyboard */; };
 		44B9F4181E092D7400DCF597 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B9F4171E092D7400DCF597 /* Assets.xcassets */; };
 		44B9F41B1E092D7400DCF597 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B9F4191E092D7400DCF597 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		449BB9F31E095804001C2FE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 449BB9E81E095803001C2FE4 /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F8111E3319A95C8B0040E7D1;
-			remoteInfo = "Alamofire iOS";
-		};
-		449BB9F51E095804001C2FE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 449BB9E81E095803001C2FE4 /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F8111E3E19A95C8B0040E7D1;
-			remoteInfo = "Alamofire iOS Tests";
-		};
-		449BB9F71E095804001C2FE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 449BB9E81E095803001C2FE4 /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4DD67C0B1A5C55C900ED2280;
-			remoteInfo = "Alamofire macOS";
-		};
-		449BB9F91E095804001C2FE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 449BB9E81E095803001C2FE4 /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = F829C6B21A7A94F100A2CD59;
-			remoteInfo = "Alamofire macOS Tests";
-		};
-		449BB9FB1E095804001C2FE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 449BB9E81E095803001C2FE4 /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4CF626EF1BA7CB3E0011A099;
-			remoteInfo = "Alamofire tvOS";
-		};
-		449BB9FD1E095804001C2FE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 449BB9E81E095803001C2FE4 /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 4CF626F81BA7CB3E0011A099;
-			remoteInfo = "Alamofire tvOS Tests";
-		};
-		449BB9FF1E095804001C2FE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 449BB9E81E095803001C2FE4 /* Alamofire.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E4202FE01B667AA100C997FB;
-			remoteInfo = "Alamofire watchOS";
-		};
-		449BBA081E0958EF001C2FE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 449BB9E81E095803001C2FE4 /* Alamofire.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
-			remoteInfo = "Alamofire iOS";
-		};
-		449BBA451E0961B5001C2FE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 449BBA3B1E0961B4001C2FE4 /* SwiftyJSON.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2E4FEFDB19575BE100351305;
-			remoteInfo = "SwiftyJSON iOS";
-		};
-		449BBA471E0961B5001C2FE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 449BBA3B1E0961B4001C2FE4 /* SwiftyJSON.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2E4FEFE619575BE100351305;
-			remoteInfo = "SwiftyJSON iOS Tests";
-		};
-		449BBA491E0961B5001C2FE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 449BBA3B1E0961B4001C2FE4 /* SwiftyJSON.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9C7DFC5B1A9102BD005AA3F7;
-			remoteInfo = "SwiftyJSON OSX";
-		};
-		449BBA4B1E0961B5001C2FE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 449BBA3B1E0961B4001C2FE4 /* SwiftyJSON.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9C7DFC651A9102BD005AA3F7;
-			remoteInfo = "SwiftyJSON OSX Tests";
-		};
-		449BBA4D1E0961B5001C2FE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 449BBA3B1E0961B4001C2FE4 /* SwiftyJSON.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = E4D7CCE81B9465A700EE7221;
-			remoteInfo = "SwiftyJSON watchOS";
-		};
-		449BBA4F1E0961B5001C2FE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 449BBA3B1E0961B4001C2FE4 /* SwiftyJSON.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 7236B4F61BAC14150020529B;
-			remoteInfo = "SwiftyJSON tvOS";
-		};
-		449BBA511E0961B5001C2FE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 449BBA3B1E0961B4001C2FE4 /* SwiftyJSON.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = A8580F741BCF5C5B00DA927B;
-			remoteInfo = "SwiftyJSON tvOS Tests";
-		};
-		449BBA551E0961C5001C2FE4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 449BBA3B1E0961B4001C2FE4 /* SwiftyJSON.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 2E4FEFDA19575BE100351305;
-			remoteInfo = "SwiftyJSON iOS";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		449BBA0A1E0958EF001C2FE4 /* Embed Frameworks */ = {
@@ -140,8 +21,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				449BBA541E0961C5001C2FE4 /* SwiftyJSON.framework in Embed Frameworks */,
-				449BBA071E0958EF001C2FE4 /* Alamofire.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,8 +28,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		449BB9E81E095803001C2FE4 /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = "../../../Downloads/Alamofire-master/Alamofire.xcodeproj"; sourceTree = "<group>"; };
-		449BBA3B1E0961B4001C2FE4 /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = "../../../Downloads/SwiftyJSON-master/SwiftyJSON.xcodeproj"; sourceTree = "<group>"; };
 		44B9F40D1E092D7400DCF597 /* tp-product-finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tp-product-finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44B9F4101E092D7400DCF597 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44B9F4121E092D7400DCF597 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -165,42 +42,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				449BBA531E0961C5001C2FE4 /* SwiftyJSON.framework in Frameworks */,
-				449BBA061E0958EF001C2FE4 /* Alamofire.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		449BB9E91E095803001C2FE4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				449BB9F41E095804001C2FE4 /* Alamofire.framework */,
-				449BB9F61E095804001C2FE4 /* Alamofire iOS Tests.xctest */,
-				449BB9F81E095804001C2FE4 /* Alamofire.framework */,
-				449BB9FA1E095804001C2FE4 /* Alamofire macOS Tests.xctest */,
-				449BB9FC1E095804001C2FE4 /* Alamofire.framework */,
-				449BB9FE1E095804001C2FE4 /* Alamofire tvOS Tests.xctest */,
-				449BBA001E095804001C2FE4 /* Alamofire.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		449BBA3C1E0961B4001C2FE4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				449BBA461E0961B5001C2FE4 /* SwiftyJSON.framework */,
-				449BBA481E0961B5001C2FE4 /* SwiftyJSON iOS Tests.xctest */,
-				449BBA4A1E0961B5001C2FE4 /* SwiftyJSON.framework */,
-				449BBA4C1E0961B5001C2FE4 /* SwiftyJSON OSX Tests.xctest */,
-				449BBA4E1E0961B5001C2FE4 /* SwiftyJSON.framework */,
-				449BBA501E0961B5001C2FE4 /* SwiftyJSON.framework */,
-				449BBA521E0961B5001C2FE4 /* SwiftyJSON tvOS Tests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		44B9F4041E092D7400DCF597 = {
 			isa = PBXGroup;
 			children = (
@@ -226,8 +73,6 @@
 				44B9F4171E092D7400DCF597 /* Assets.xcassets */,
 				44B9F4191E092D7400DCF597 /* LaunchScreen.storyboard */,
 				44B9F41C1E092D7400DCF597 /* Info.plist */,
-				449BBA3B1E0961B4001C2FE4 /* SwiftyJSON.xcodeproj */,
-				449BB9E81E095803001C2FE4 /* Alamofire.xcodeproj */,
 			);
 			path = "tp-product-finder";
 			sourceTree = "<group>";
@@ -247,8 +92,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				449BBA091E0958EF001C2FE4 /* PBXTargetDependency */,
-				449BBA561E0961C5001C2FE4 /* PBXTargetDependency */,
 			);
 			name = "tp-product-finder";
 			productName = "tp-product-finder";
@@ -283,123 +126,12 @@
 			mainGroup = 44B9F4041E092D7400DCF597;
 			productRefGroup = 44B9F40E1E092D7400DCF597 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 449BB9E91E095803001C2FE4 /* Products */;
-					ProjectRef = 449BB9E81E095803001C2FE4 /* Alamofire.xcodeproj */;
-				},
-				{
-					ProductGroup = 449BBA3C1E0961B4001C2FE4 /* Products */;
-					ProjectRef = 449BBA3B1E0961B4001C2FE4 /* SwiftyJSON.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				44B9F40C1E092D7400DCF597 /* tp-product-finder */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		449BB9F41E095804001C2FE4 /* Alamofire.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Alamofire.framework;
-			remoteRef = 449BB9F31E095804001C2FE4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		449BB9F61E095804001C2FE4 /* Alamofire iOS Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Alamofire iOS Tests.xctest";
-			remoteRef = 449BB9F51E095804001C2FE4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		449BB9F81E095804001C2FE4 /* Alamofire.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Alamofire.framework;
-			remoteRef = 449BB9F71E095804001C2FE4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		449BB9FA1E095804001C2FE4 /* Alamofire macOS Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Alamofire macOS Tests.xctest";
-			remoteRef = 449BB9F91E095804001C2FE4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		449BB9FC1E095804001C2FE4 /* Alamofire.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Alamofire.framework;
-			remoteRef = 449BB9FB1E095804001C2FE4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		449BB9FE1E095804001C2FE4 /* Alamofire tvOS Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "Alamofire tvOS Tests.xctest";
-			remoteRef = 449BB9FD1E095804001C2FE4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		449BBA001E095804001C2FE4 /* Alamofire.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Alamofire.framework;
-			remoteRef = 449BB9FF1E095804001C2FE4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		449BBA461E0961B5001C2FE4 /* SwiftyJSON.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwiftyJSON.framework;
-			remoteRef = 449BBA451E0961B5001C2FE4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		449BBA481E0961B5001C2FE4 /* SwiftyJSON iOS Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "SwiftyJSON iOS Tests.xctest";
-			remoteRef = 449BBA471E0961B5001C2FE4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		449BBA4A1E0961B5001C2FE4 /* SwiftyJSON.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwiftyJSON.framework;
-			remoteRef = 449BBA491E0961B5001C2FE4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		449BBA4C1E0961B5001C2FE4 /* SwiftyJSON OSX Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "SwiftyJSON OSX Tests.xctest";
-			remoteRef = 449BBA4B1E0961B5001C2FE4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		449BBA4E1E0961B5001C2FE4 /* SwiftyJSON.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwiftyJSON.framework;
-			remoteRef = 449BBA4D1E0961B5001C2FE4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		449BBA501E0961B5001C2FE4 /* SwiftyJSON.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwiftyJSON.framework;
-			remoteRef = 449BBA4F1E0961B5001C2FE4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		449BBA521E0961B5001C2FE4 /* SwiftyJSON tvOS Tests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = "SwiftyJSON tvOS Tests.xctest";
-			remoteRef = 449BBA511E0961B5001C2FE4 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		44B9F40B1E092D7400DCF597 /* Resources */ = {
@@ -425,19 +157,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		449BBA091E0958EF001C2FE4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Alamofire iOS";
-			targetProxy = 449BBA081E0958EF001C2FE4 /* PBXContainerItemProxy */;
-		};
-		449BBA561E0961C5001C2FE4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "SwiftyJSON iOS";
-			targetProxy = 449BBA551E0961C5001C2FE4 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		44B9F4141E092D7400DCF597 /* Main.storyboard */ = {
