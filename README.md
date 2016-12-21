@@ -6,6 +6,10 @@ This app was create during the TP Hackation.The hackaton was focus on using AI a
 # Team 3
 (My awesome team) has choose to create an app using IBM Bluemix and using Watson Visual Recognition capabilities to create an app.
 
+# Getting Started (Xcode 8.0.2 / Swift 3)
+1. Run the command at the root: Swift Build
+2. Change the variable with: let WatsonAPIKey = ""
+
 # Possibles improvements
 I had to make some sacrifices in order to have an app up and running.
 
